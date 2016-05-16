@@ -23,6 +23,7 @@
     padding: 4px;
     margin: auto;
     width: 300px;
+    text-align: center;
 }
 
 .nav > li {
@@ -47,13 +48,6 @@
     float: right;
     font-size: 19px;
     font-weight: bolder;
-}
-
-.nav li > a > span:after {
-    content: '\25be';
-}
-.nav li.open > a > span:after {
-    content: '\25b4';
 }
 
 .nav > li.active > a  {
